@@ -681,6 +681,10 @@ footer .block-text {
     fill: #4d5ae5;
 }
 
+.form-wrapper-comment {
+    margin-bottom: 16px;
+}
+
 .form-user-coment {
     width: 100%;
     min-height: 120px;
