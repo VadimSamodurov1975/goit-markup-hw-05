@@ -477,16 +477,15 @@ footer .block-text {
     background-color: #31d0aa;
 }
 
-/* .footer-wrapper-form {
-    display: block;
-} */
 .footer-input-email {
     margin-left: auto;
     display: block;   
 }
 
-.footer-wrapper-input {
+.footer-form {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 24px;
 }
 .footer-input {
@@ -494,9 +493,14 @@ footer .block-text {
     border-radius: 4px;
     width: 264px;
     height: 40px;
+    color: #fff;
     outline: none;
-    background: #2e2f42;
-    padding: 8px 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    background: transparent;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
