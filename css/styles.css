@@ -577,7 +577,7 @@ footer .block-text {
     border-radius: 4px;
     width: 408px;
     min-height: 584px;
-    padding: 24px;
+    padding: 72px 24px 24px 24px;
 
     transform: translate(-50%, -50%);
 
@@ -597,7 +597,6 @@ footer .block-text {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        margin-top: 48px;
         margin-bottom: 16px;
        
 
@@ -636,7 +635,7 @@ footer .block-text {
 
 
 .form-wrapper-cont {
-    margin-bottom: 8px;    
+    margin-bottom: 16px;    
 }
 
 .form-user-label {
@@ -650,8 +649,7 @@ footer .block-text {
 }
 
 .form-user-icon-wrapper {
-    position: relative;
-    padding: 72px 24px 24px 24px;
+    position: relative;    
 }
 
 .form-user-input {
